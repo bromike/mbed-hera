@@ -14,9 +14,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 * [Mbed CLI](https://github.com/ARMmbed/mbed-cli#installing-mbed-cli).
 
-### Get mbed-os files
+### Import the project
 
-From the command-line, update the mbed-os libraries:
+From the command-line, import this mbed project:
+```
+mbed import https://github.com/mikael-brochu/mbed-hera
+```
+
+You could instead clone the repo and then update the mbed-os libraries:
 
 ```
 mbed update master
